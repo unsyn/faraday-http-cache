@@ -1,3 +1,7 @@
+## Unreleased
+
+* Support only Ruby 2.1+.
+
 ## 1.3.0 (2016-03-24)
 
 * `no-cache` responses won't be treated as fresh and will always be revalidated.
