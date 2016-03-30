@@ -57,7 +57,7 @@ module Faraday
         cache.write(key, entries)
       rescue ::Encoding::UndefinedConversionError => e
         warn "Response could not be serialized: #{e.message}. Try using Marshal to serialize."
-        raise e
+        #raise e
       end
 
       # Internal: Attempt to retrieve an stored response that suits the incoming
